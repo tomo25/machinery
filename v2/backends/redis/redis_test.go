@@ -4,10 +4,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/RichardKnop/machinery/v2/backends/redis"
-	"github.com/RichardKnop/machinery/v2/config"
-	"github.com/RichardKnop/machinery/v2/tasks"
 	"github.com/stretchr/testify/assert"
+	"github.com/tomo25/machinery/v2/backends/redis"
+	"github.com/tomo25/machinery/v2/config"
+	"github.com/tomo25/machinery/v2/tasks"
 )
 
 func TestGroupCompleted(t *testing.T) {

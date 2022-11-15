@@ -3,8 +3,8 @@ package tasks_test
 import (
 	"testing"
 
-	"github.com/RichardKnop/machinery/v1/tasks"
 	"github.com/stretchr/testify/assert"
+	"github.com/tomo25/machinery/v1/tasks"
 )
 
 func TestReflectTaskResults(t *testing.T) {

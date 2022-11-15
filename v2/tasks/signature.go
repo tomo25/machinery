@@ -2,7 +2,7 @@ package tasks
 
 import (
 	"fmt"
-	"github.com/RichardKnop/machinery/v2/utils"
+	"github.com/tomo25/machinery/v2/utils"
 	"time"
 
 	"github.com/google/uuid"
