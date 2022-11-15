@@ -3,8 +3,8 @@ package retry_test
 import (
 	"testing"
 
-	"github.com/RichardKnop/machinery/v1/retry"
 	"github.com/stretchr/testify/assert"
+	"github.com/tomo25/machinery/v1/retry"
 )
 
 func TestFibonacci(t *testing.T) {

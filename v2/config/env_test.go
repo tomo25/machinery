@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/RichardKnop/machinery/v2/config"
 	"github.com/stretchr/testify/assert"
+	"github.com/tomo25/machinery/v2/config"
 )
 
 func TestNewFromEnvironment(t *testing.T) {

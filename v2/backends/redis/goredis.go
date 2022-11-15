@@ -12,11 +12,11 @@ import (
 	"github.com/go-redsync/redsync/v4"
 	redsyncgoredis "github.com/go-redsync/redsync/v4/redis/goredis/v8"
 
-	"github.com/RichardKnop/machinery/v2/backends/iface"
-	"github.com/RichardKnop/machinery/v2/common"
-	"github.com/RichardKnop/machinery/v2/config"
-	"github.com/RichardKnop/machinery/v2/log"
-	"github.com/RichardKnop/machinery/v2/tasks"
+	"github.com/tomo25/machinery/v2/backends/iface"
+	"github.com/tomo25/machinery/v2/common"
+	"github.com/tomo25/machinery/v2/config"
+	"github.com/tomo25/machinery/v2/log"
+	"github.com/tomo25/machinery/v2/tasks"
 )
 
 // BackendGR represents a Redis result backend

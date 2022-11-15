@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/RichardKnop/machinery/v1"
-	"github.com/RichardKnop/machinery/v1/config"
-	"github.com/RichardKnop/machinery/v1/tasks"
 	"github.com/stretchr/testify/suite"
+	"github.com/tomo25/machinery/v1"
+	"github.com/tomo25/machinery/v1/config"
+	"github.com/tomo25/machinery/v1/tasks"
 )
 
 type EagerIntegrationTestSuite struct {

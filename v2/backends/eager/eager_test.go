@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/RichardKnop/machinery/v2/backends/eager"
-	"github.com/RichardKnop/machinery/v2/backends/iface"
-	"github.com/RichardKnop/machinery/v2/tasks"
 	"github.com/stretchr/testify/suite"
+	"github.com/tomo25/machinery/v2/backends/eager"
+	"github.com/tomo25/machinery/v2/backends/iface"
+	"github.com/tomo25/machinery/v2/tasks"
 )
 
 type EagerBackendTestSuite struct {

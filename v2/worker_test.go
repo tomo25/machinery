@@ -4,8 +4,6 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-
-	"github.com/RichardKnop/machinery/v2"
 )
 
 func TestRedactURL(t *testing.T) {
@@ -18,7 +16,7 @@ func TestRedactURL(t *testing.T) {
 
 func TestPreConsumeHandler(t *testing.T) {
 	t.Parallel()
-	
+
 	worker := &machinery.Worker{}
 
 	worker.SetPreConsumeHandler(SamplePreConsumeHandler)
