@@ -7,14 +7,14 @@
 Machinery is an asynchronous task queue/job queue based on distributed message passing.
 
 [![Travis Status for RichardKnop/machinery](https://travis-ci.org/RichardKnop/machinery.svg?branch=master&label=linux+build)](https://travis-ci.org/RichardKnop/machinery)
-[![godoc for RichardKnop/machinery](https://godoc.org/github.com/nathany/looper?status.svg)](http://godoc.org/github.com/tomo25/machinery/v1)
+[![godoc for RichardKnop/machinery](https://godoc.org/github.com/nathany/looper?status.svg)](http://godoc.org/github.com/RichardKnop/machinery/v1)
 [![codecov for RichardKnop/machinery](https://codecov.io/gh/RichardKnop/machinery/branch/master/graph/badge.svg)](https://codecov.io/gh/RichardKnop/machinery)
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/tomo25/machinery)](https://goreportcard.com/report/github.com/tomo25/machinery)
-[![GolangCI](https://golangci.com/badges/github.com/tomo25/machinery.svg)](https://golangci.com)
+[![Go Report Card](https://goreportcard.com/badge/github.com/RichardKnop/machinery)](https://goreportcard.com/report/github.com/RichardKnop/machinery)
+[![GolangCI](https://golangci.com/badges/github.com/RichardKnop/machinery.svg)](https://golangci.com)
 [![OpenTracing Badge](https://img.shields.io/badge/OpenTracing-enabled-blue.svg)](http://opentracing.io)
 
-[![Sourcegraph for RichardKnop/machinery](https://sourcegraph.com/github.com/tomo25/machinery/-/badge.svg)](https://sourcegraph.com/github.com/tomo25/machinery?badge)
+[![Sourcegraph for RichardKnop/machinery](https://sourcegraph.com/github.com/RichardKnop/machinery/-/badge.svg)](https://sourcegraph.com/github.com/RichardKnop/machinery?badge)
 [![Donate Bitcoin](https://img.shields.io/badge/donate-bitcoin-orange.svg)](https://richardknop.github.io/donate/)
 
 ---
