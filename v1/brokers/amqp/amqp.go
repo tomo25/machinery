@@ -5,11 +5,16 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"sync"
-	"time"
-
 	"github.com/pkg/errors"
 	amqp "github.com/rabbitmq/amqp091-go"
+	"github.com/tomo25/machinery/v1/brokers/errs"
+	"github.com/tomo25/machinery/v1/brokers/iface"
+	"github.com/tomo25/machinery/v1/common"
+	"github.com/tomo25/machinery/v1/config"
+	"github.com/tomo25/machinery/v1/log"
+	"github.com/tomo25/machinery/v1/tasks"
+	"sync"
+	"time"
 )
 
 type AMQPConnection struct {

@@ -10,6 +10,12 @@ import (
 
 	"github.com/pkg/errors"
 	amqp "github.com/rabbitmq/amqp091-go"
+	"github.com/tomo25/machinery/v2/brokers/errs"
+	"github.com/tomo25/machinery/v2/brokers/iface"
+	"github.com/tomo25/machinery/v2/common"
+	"github.com/tomo25/machinery/v2/config"
+	"github.com/tomo25/machinery/v2/log"
+	"github.com/tomo25/machinery/v2/tasks"
 )
 
 type AMQPConnection struct {
