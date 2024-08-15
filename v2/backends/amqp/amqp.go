@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/streadway/amqp"
+	amqp "github.com/rabbitmq/amqp091-go"
 	"github.com/tomo25/machinery/v2/backends/iface"
 	"github.com/tomo25/machinery/v2/common"
 	"github.com/tomo25/machinery/v2/config"
