@@ -2,7 +2,7 @@ package amqp
 
 import (
 	"fmt"
-	"github.com/streadway/amqp"
+	amqp "github.com/rabbitmq/amqp091-go"
 	"github.com/tomo25/machinery/v1/brokers/iface"
 	"github.com/tomo25/machinery/v1/config"
 	"github.com/tomo25/machinery/v1/tasks"
