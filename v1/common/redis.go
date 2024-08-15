@@ -69,7 +69,8 @@ func (rc *RedisConnector) open(socketPath, host, password string, db int, cnf *c
 		redis.DialReadTimeout(time.Duration(cnf.ReadTimeout) * time.Second),
 		redis.DialWriteTimeout(time.Duration(cnf.WriteTimeout) * time.Second),
 		redis.DialConnectTimeout(time.Duration(cnf.ConnectTimeout) * time.Second),
-		redis.DialClientName(cnf.ClientName),
+		// FIXME: redis.DialClientName is not supported in redigo v2
+		//redis.DialClientName(cnf.ClientName),
 	}
 
 	if tlsConfig != nil {
